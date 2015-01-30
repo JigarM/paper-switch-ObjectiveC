@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D6D54C01A7BFD4300E0A9C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D54BF1A7BFD4300E0A9C5 /* main.m */; };
+		8D6D54C31A7BFD4300E0A9C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D54C21A7BFD4300E0A9C5 /* AppDelegate.m */; };
+		8D6D54CB1A7BFD4300E0A9C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D54CA1A7BFD4300E0A9C5 /* Images.xcassets */; };
+		8D6D54CE1A7BFD4300E0A9C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D54CC1A7BFD4300E0A9C5 /* LaunchScreen.xib */; };
+		8D6D54DA1A7BFD4300E0A9C5 /* PaperSwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D54D91A7BFD4300E0A9C5 /* PaperSwitchDemoTests.m */; };
+		8D6D54E81A7BFE3100E0A9C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D54E61A7BFE3100E0A9C5 /* ViewController.m */; };
+		8D6D54E91A7BFE3100E0A9C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D6D54E71A7BFE3100E0A9C5 /* ViewController.xib */; };
+		8D6D54EC1A7C009900E0A9C5 /* RAMPaperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D54EB1A7C009900E0A9C5 /* RAMPaperSwitch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D6D54D41A7BFD4300E0A9C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D6D54B21A7BFD4200E0A9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6D54B91A7BFD4300E0A9C5;
+			remoteInfo = PaperSwitchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D6D54BA1A7BFD4300E0A9C5 /* PaperSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6D54BE1A7BFD4300E0A9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6D54BF1A7BFD4300E0A9C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D6D54C11A7BFD4300E0A9C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D6D54C21A7BFD4300E0A9C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D6D54CA1A7BFD4300E0A9C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D6D54CD1A7BFD4300E0A9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8D6D54D31A7BFD4300E0A9C5 /* PaperSwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperSwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6D54D81A7BFD4300E0A9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D6D54D91A7BFD4300E0A9C5 /* PaperSwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperSwitchDemoTests.m; sourceTree = "<group>"; };
+		8D6D54E51A7BFE3100E0A9C5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D6D54E61A7BFE3100E0A9C5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D6D54E71A7BFE3100E0A9C5 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8D6D54EA1A7C009800E0A9C5 /* PaperSwitchDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaperSwitchDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D6D54EB1A7C009900E0A9C5 /* RAMPaperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMPaperSwitch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D6D54B71A7BFD4300E0A9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6D54D01A7BFD4300E0A9C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D6D54B11A7BFD4200E0A9C5 = {
+			isa = PBXGroup;
+			children = (
+				8D6D54BC1A7BFD4300E0A9C5 /* PaperSwitchDemo */,
+				8D6D54D61A7BFD4300E0A9C5 /* PaperSwitchDemoTests */,
+				8D6D54BB1A7BFD4300E0A9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6D54BB1A7BFD4300E0A9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D54BA1A7BFD4300E0A9C5 /* PaperSwitchDemo.app */,
+				8D6D54D31A7BFD4300E0A9C5 /* PaperSwitchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D6D54BC1A7BFD4300E0A9C5 /* PaperSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D54C11A7BFD4300E0A9C5 /* AppDelegate.h */,
+				8D6D54C21A7BFD4300E0A9C5 /* AppDelegate.m */,
+				8D6D54CA1A7BFD4300E0A9C5 /* Images.xcassets */,
+				8D6D54CC1A7BFD4300E0A9C5 /* LaunchScreen.xib */,
+				8D6D54BD1A7BFD4300E0A9C5 /* Supporting Files */,
+				8D6D54E51A7BFE3100E0A9C5 /* ViewController.h */,
+				8D6D54E61A7BFE3100E0A9C5 /* ViewController.m */,
+				8D6D54E71A7BFE3100E0A9C5 /* ViewController.xib */,
+				8D6D54EB1A7C009900E0A9C5 /* RAMPaperSwitch.swift */,
+				8D6D54EA1A7C009800E0A9C5 /* PaperSwitchDemo-Bridging-Header.h */,
+			);
+			path = PaperSwitchDemo;
+			sourceTree = "<group>";
+		};
+		8D6D54BD1A7BFD4300E0A9C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D54BE1A7BFD4300E0A9C5 /* Info.plist */,
+				8D6D54BF1A7BFD4300E0A9C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6D54D61A7BFD4300E0A9C5 /* PaperSwitchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D54D91A7BFD4300E0A9C5 /* PaperSwitchDemoTests.m */,
+				8D6D54D71A7BFD4300E0A9C5 /* Supporting Files */,
+			);
+			path = PaperSwitchDemoTests;
+			sourceTree = "<group>";
+		};
+		8D6D54D71A7BFD4300E0A9C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6D54D81A7BFD4300E0A9C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6D54B91A7BFD4300E0A9C5 /* PaperSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6D54DD1A7BFD4300E0A9C5 /* Build configuration list for PBXNativeTarget "PaperSwitchDemo" */;
+			buildPhases = (
+				8D6D54B61A7BFD4300E0A9C5 /* Sources */,
+				8D6D54B71A7BFD4300E0A9C5 /* Frameworks */,
+				8D6D54B81A7BFD4300E0A9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperSwitchDemo;
+			productName = PaperSwitchDemo;
+			productReference = 8D6D54BA1A7BFD4300E0A9C5 /* PaperSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D6D54D21A7BFD4300E0A9C5 /* PaperSwitchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6D54E01A7BFD4300E0A9C5 /* Build configuration list for PBXNativeTarget "PaperSwitchDemoTests" */;
+			buildPhases = (
+				8D6D54CF1A7BFD4300E0A9C5 /* Sources */,
+				8D6D54D01A7BFD4300E0A9C5 /* Frameworks */,
+				8D6D54D11A7BFD4300E0A9C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6D54D51A7BFD4300E0A9C5 /* PBXTargetDependency */,
+			);
+			name = PaperSwitchDemoTests;
+			productName = PaperSwitchDemoTests;
+			productReference = 8D6D54D31A7BFD4300E0A9C5 /* PaperSwitchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D6D54B21A7BFD4200E0A9C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = mobmaxime;
+				TargetAttributes = {
+					8D6D54B91A7BFD4300E0A9C5 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8D6D54D21A7BFD4300E0A9C5 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8D6D54B91A7BFD4300E0A9C5;
+					};
+				};
+			};
+			buildConfigurationList = 8D6D54B51A7BFD4200E0A9C5 /* Build configuration list for PBXProject "PaperSwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D6D54B11A7BFD4200E0A9C5;
+			productRefGroup = 8D6D54BB1A7BFD4300E0A9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D6D54B91A7BFD4300E0A9C5 /* PaperSwitchDemo */,
+				8D6D54D21A7BFD4300E0A9C5 /* PaperSwitchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D6D54B81A7BFD4300E0A9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6D54CE1A7BFD4300E0A9C5 /* LaunchScreen.xib in Resources */,
+				8D6D54E91A7BFE3100E0A9C5 /* ViewController.xib in Resources */,
+				8D6D54CB1A7BFD4300E0A9C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6D54D11A7BFD4300E0A9C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D6D54B61A7BFD4300E0A9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6D54E81A7BFE3100E0A9C5 /* ViewController.m in Sources */,
+				8D6D54EC1A7C009900E0A9C5 /* RAMPaperSwitch.swift in Sources */,
+				8D6D54C31A7BFD4300E0A9C5 /* AppDelegate.m in Sources */,
+				8D6D54C01A7BFD4300E0A9C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6D54CF1A7BFD4300E0A9C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6D54DA1A7BFD4300E0A9C5 /* PaperSwitchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D6D54D51A7BFD4300E0A9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6D54B91A7BFD4300E0A9C5 /* PaperSwitchDemo */;
+			targetProxy = 8D6D54D41A7BFD4300E0A9C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D6D54CC1A7BFD4300E0A9C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6D54CD1A7BFD4300E0A9C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D6D54DB1A7BFD4300E0A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D6D54DC1A7BFD4300E0A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6D54DE1A7BFD4300E0A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PaperSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaperSwitchDemo/PaperSwitchDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D6D54DF1A7BFD4300E0A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PaperSwitchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaperSwitchDemo/PaperSwitchDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8D6D54E11A7BFD4300E0A9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaperSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperSwitchDemo.app/PaperSwitchDemo";
+			};
+			name = Debug;
+		};
+		8D6D54E21A7BFD4300E0A9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaperSwitchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperSwitchDemo.app/PaperSwitchDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D6D54B51A7BFD4200E0A9C5 /* Build configuration list for PBXProject "PaperSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6D54DB1A7BFD4300E0A9C5 /* Debug */,
+				8D6D54DC1A7BFD4300E0A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6D54DD1A7BFD4300E0A9C5 /* Build configuration list for PBXNativeTarget "PaperSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6D54DE1A7BFD4300E0A9C5 /* Debug */,
+				8D6D54DF1A7BFD4300E0A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D6D54E01A7BFD4300E0A9C5 /* Build configuration list for PBXNativeTarget "PaperSwitchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6D54E11A7BFD4300E0A9C5 /* Debug */,
+				8D6D54E21A7BFD4300E0A9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D6D54B21A7BFD4200E0A9C5 /* Project object */;
+}
